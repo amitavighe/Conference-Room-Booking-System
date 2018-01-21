@@ -65,3 +65,7 @@ desc booking_details;
 
 show tables;
 
+create table userlogin(uname char(10) primary key, pwd varchar(50));
+
+insert into userlogin values('amita', '1234');
+insert into userlogin values('vj', '4567');
