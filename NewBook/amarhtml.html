@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>New Book</title>
+	
+	<link rel="stylesheet" href="amarcss.css" type="text/css" />
+	
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="blurBg-false" style="background-color:#EBEBEB; background-image: url('Large-Conference-Room.jpg'); background-repeat: no-repeat; background-size: 1500px 700px;">
+
+
+
+<!--<script type="text/javascript" src="newbk_files/formoid1/jquery.min.js"></script>-->
+
+<!--<img src="Large-Conference-Room.jpg"  width="100%" height="100%">-->
+
+
+<form class="formoid-solid-blue" style="background-color:#FFFFFF;font-size:14px;font-family:'Roboto',Arial,Helvetica,sans-serif;color:#34495E;max-width:480px;min-width:150px" method="post">
+
+
+
+<div class="title">
+<h2>New Book</h2>
+</div>
+
+	<div class="element-radio">
+	<label class="title" for="focusedInput"> <b>Date-Time</b> <span class="required">*</span></label>		
+	<div class="column column6"><label>
+	</label>
+	</div>
+	<span class="clearfix"></span>
+	<div class="column column6">
+	<label>
+	<input id="datetime" id="focusedInput" type="datetime-local" name="radio"  required="required"/>
+	<b>To</b><input id="datetime" id="focusedInput" type="datetime-local" name="radio"  required="required"/>
+	</label>
+	</div>
+	<span class="clearfix"></span>
+	</div>
+
+	<div class="element-number">
+	<label for="focusedInput" class="title"></label>
+	<div class="item-cont">
+	<b>Capacity</b><input class="medium" id="focusedInput" type="text" min="0" max="100" name="number" placeholder="" value="" pattern=".{100,}" title=" Not more than 100"/>
+	<span class="icon-place"></span></div></div>
+	
+	<div class="element-checkbox">
+	<label class="title">
+	</label>		
+	<div class="column column1">
+
+	<label>
+	<input type="checkbox" name="checkbox[]" value="Desktop"/ >
+	<span><b>Desktop</b></span>
+	</label>
+	
+	<label>
+	<input type="checkbox" name="checkbox[]" value="Conference Phone"/ >
+	<span><b>Conference Phone</b></span>
+	</label>
+	
+	<label>
+	<input type="checkbox" name="checkbox[]" value="Projector"/ >
+	<span><b>Projector</b></span>
+	</label>
+	
+	<label>
+	<input type="checkbox" name="checkbox[]" value="Sound System"/ >
+	<span><b>Sound System</b></span>
+	</label>
+	</div>
+	<span class="clearfix"></span>
+	</div>
+	
+	<div class="submit">
+	<input type="submit" value="Search"/>
+	</div>
+	</form>
+	
+	
+	<!--<p class="frmd">
+	<a href="http://formoid.com/v29.php">html5 form</a> -->
+	
+	
+	<!--<script type="text/javascript" src="newbk_files/formoid1/formoid-solid-blue.js"></script>-->
+	
+</body>
+</html>
